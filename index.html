@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CupidCode — Where Love Meets Code 💘</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <svg class="logo-svg" viewBox="0 0 60 60" width="40" height="40">
+                    <path d="M30 54 C25 49, 5 36, 5 22 C5 14, 11 8, 19 8 C24 8, 28 11, 30 14 C32 11, 36 8, 41 8 C49 8, 55 14, 55 22 C55 36, 35 49, 30 54Z" fill="#ff4d6d" stroke="#ff8fab" stroke-width="2"/>
+                    <text x="30" y="32" text-anchor="middle" font-family="monospace" font-size="14" fill="white" font-weight="bold">&lt;/&gt;</text>
+                </svg>
+                <span>CupidCode</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home 🏠</a></li>
+                <li><a href="#about">About 💑</a></li>
+                <li><a href="#services">Services ✨</a></li>
+                <li><a href="#pricing">Pricing 💰</a></li>
+                <li><a href="#reviews">Reviews 💬</a></li>
+                <li><a href="#gallery">Gallery 🖼️</a></li>
+                <li><a href="#contact">Contact 💬</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content bounce-in">
+            <div class="hero-emoji">💘</div>
+            <svg class="hero-logo" viewBox="0 0 120 120" width="100" height="100">
+                <path d="M60 108 C50 98, 10 72, 10 44 C10 28, 22 16, 38 16 C48 16, 56 22, 60 28 C64 22, 72 16, 82 16 C98 16, 110 28, 110 44 C110 72, 70 98, 60 108Z" fill="#ff4d6d" stroke="#ffd166" stroke-width="3"/>
+                <text x="60" y="62" text-anchor="middle" font-family="monospace" font-size="28" fill="white" font-weight="bold">&lt;/&gt;</text>
+            </svg>
+            <h1 class="hero-title">CupidCode</h1>
+            <p class="hero-tagline">Where Love Meets Code 💕</p>
+            <p class="hero-description">We build super cute, interactive web pages that make your special someone go "aww!" 🥰</p>
+            <a href="#pricing" class="btn btn-primary wiggle">Order Now! 🎉</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header slide-up">
+                <span class="section-emoji">💑</span>
+                <h2>Meet The Team!</h2>
+                <p class="section-subtitle">Two college sweethearts on a mission to spread love 💕</p>
+            </div>
+            <div class="about-content slide-up">
+                <div class="about-card">
+                    <div class="about-avatar">
+                        <div class="avatar-ring">
+                            <svg viewBox="0 0 160 160" width="160" height="160">
+                                <circle cx="80" cy="80" r="75" fill="#fff5f7" stroke="#ff4d6d" stroke-width="3" stroke-dasharray="8,4"/>
+                                <text x="80" y="75" text-anchor="middle" font-size="40">👩‍💻</text>
+                                <text x="50" y="110" text-anchor="middle" font-size="14">+</text>
+                                <text x="80" y="110" text-anchor="middle" font-size="40">👨‍💻</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Hey there! We're CupidCode! 👋</h3>
+                        <p>We're two college sweethearts who love coding as much as we love each other (okay, maybe not THAT much but close! 😂). Between classes and study sessions, we realized we could use our dev skills to help others express their feelings in creative ways!</p>
+                        <p>Every page we create helps fund our tuition — so when you order from us, you're not just getting an amazing love page, you're also helping two students achieve their dreams! 🎓✨</p>
+                        <p>We put our whole hearts into every design because we believe love deserves to be celebrated in the most creative way possible. Let us code your love story! 💖</p>
+                        <div class="about-tags">
+                            <span class="tag">🎓 Students</span>
+                            <span class="tag">💕 Couple</span>
+                            <span class="tag">💻 Developers</span>
+                            <span class="tag">🇵🇭 Filipino</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header slide-up">
+                <span class="section-emoji">✨</span>
+                <h2>What We Do!</h2>
+                <p class="section-subtitle">Interactive romantic web pages for every occasion! 🎀</p>
+            </div>
+            <div class="services-grid slide-up">
+                <div class="service-card" data-tilt>
+                    <div class="service-emoji">💌</div>
+                    <h3>Date Invitations</h3>
+                    <p>Cute & playful pages with evasive "No" buttons that'll make them laugh before saying YES! 😏</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-emoji">🥂</div>
+                    <h3>Monthsary Pages</h3>
+                    <p>Celebrate your milestones with photo galleries, love letters, and memory timelines! 📸</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-emoji">💝</div>
+                    <h3>Valentine's Specials</h3>
+                    <p>Make Feb 14 unforgettable with animations, music, and all the heart-eyes! 😍</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-emoji">🎂</div>
+                    <h3>Birthday Surprises</h3>
+                    <p>Interactive birthday pages with countdowns, confetti, and personalized wishes! 🎈</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-emoji">🎮</div>
+                    <h3>Mini-Games</h3>
+                    <p>Love-themed mini-games your partner has to beat before seeing your surprise! 🏆</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-emoji">🌟</div>
+                    <h3>Any Occasion!</h3>
+                    <p>Mother's Day, Graduation, "Just Because" — if it's worth celebrating, we'll code it! 🎊</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header slide-up">
+                <span class="section-emoji">💰</span>
+                <h2>Super Affordable Pricing!</h2>
+                <p class="section-subtitle">Student-friendly prices because love shouldn't break the bank 🏦</p>
+            </div>
+            <div class="pricing-grid slide-up">
+                <div class="pricing-card">
+                    <div class="pricing-icon">🌸</div>
+                    <h3>Regular</h3>
+                    <div class="price">₱149 – ₱299</div>
+                    <div class="pricing-desc">Perfect for sweet, simple surprises!</div>
+                    <ul class="pricing-features">
+                        <li>✅ Template-based design</li>
+                        <li>✅ Your names, messages & photos</li>
+                        <li>✅ 3 days up period</li>
+                        <li>✅ Max 3 images included</li>
+                        <li>✅ Mobile-friendly</li>
+                    </ul>
+                    <div class="pricing-addons">
+                        <p class="addon-title">✨ Add-ons:</p>
+                        <p>📋 eVoucher w/ date details — ₱299</p>
+                        <p>⏰ Extra days — ₱50/day</p>
+                    </div>
+                    <a href="#contact" class="btn btn-secondary">Choose Regular 🌸</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="ribbon">Most Popular! 🔥</div>
+                    <div class="pricing-icon">💎</div>
+                    <h3>Pro</h3>
+                    <div class="price">₱499 – ₱999</div>
+                    <div class="pricing-desc">For those who want something truly special!</div>
+                    <ul class="pricing-features">
+                        <li>✅ Fully custom design — 100% unique!</li>
+                        <li>✅ Can include mini-games 🎮</li>
+                        <li>✅ Starting 1 week up period</li>
+                        <li>✅ Depends on complexity</li>
+                        <li>✅ Unlimited creative freedom</li>
+                    </ul>
+                    <div class="pricing-addons">
+                        <p class="addon-title">✨ Add-ons:</p>
+                        <p>⏰ Extra days — ₱50/day</p>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Choose Pro 💎</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header slide-up">
+                <span class="section-emoji">💬</span>
+                <h2>What Our Clients Say!</h2>
+                <p class="section-subtitle">Real reviews from real couples 💕</p>
+            </div>
+            <div class="reviews-grid slide-up">
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Grabe guys, umiyak yung GF ko nung nakita niya! Hindi niya expect na ganun ka-effort. Sobrang worth it ng ₱199 lang. Parang gawa ng professional dev pero ang mura! Highly recommend! 🥹💕"</p>
+                    <div class="review-author">
+                        <strong>Mark D.</strong>
+                        <span>Valentine's Invite • Regular Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Super bilis ng turnaround! Kinabukasan lang meron na agad. Yung jowa ko tuwang-tuwa sa evasive No button haha, ang cute daw! Pag hindi pa kami nakasal, CupidCode ulit for proposal 😂❤️"</p>
+                    <div class="review-author">
+                        <strong>Jessa M.</strong>
+                        <span>Monthsary Page • Regular Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐</div>
+                    <p class="review-text">"Maganda naman yung output, satisfied ako. Sana lang may more templates to choose from next time. Yung GF ko nag-enjoy pero medyo gusto niya more animations. Overall goods naman! 👍"</p>
+                    <div class="review-author">
+                        <strong>Carlos R.</strong>
+                        <span>Date Invitation • Regular Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Nag-Pro tier kami kasi gusto ko may mini-game bago makita yung surprise. Sobrang creative ng output! Nakailang ulit yung BF ko bago ma-unlock yung message ko. Best ₱799 na nagastos ko ever 🎮💘"</p>
+                    <div class="review-author">
+                        <strong>Aiah C.</strong>
+                        <span>Birthday Surprise • Pro Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐</div>
+                    <p class="review-text">"Okay naman siya, nagustuhan ng jowa ko. Kaso medyo na-late yung delivery ng isang araw. Sana next time on time. Yung page mismo maganda naman, worth the price pa rin. 🙂"</p>
+                    <div class="review-author">
+                        <strong>Dex L.</strong>
+                        <span>Monthsary Page • Regular Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Ang ganda ng golden ticket voucher! Pinalamanan ko ng date details namin tapos ni-print ko pa. Dala niya hanggang sa actual date namin. Kilig na kilig siya! Salamat CupidCode! 🎫✨"</p>
+                    <div class="review-author">
+                        <strong>Paolo R.</strong>
+                        <span>Date Invitation • Regular Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐</div>
+                    <p class="review-text">"Maganda yung concept, super unique! Yung Certified Jowa Exam nag-enjoy yung BF ko. Konting suggestion lang — sana may option na Tagalog yung ibang messages. Pero overall 8/10! 💯"</p>
+                    <div class="review-author">
+                        <strong>Mika S.</strong>
+                        <span>Jowa Exam • Pro Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"First time ko mag-order ng ganito and WOW. Ang responsive ng mga kuya/ate na gumawa. Super accommodating kahit marami akong changes. Yung page namin parang gawa ng malaking company! Sulit na sulit 💯🔥"</p>
+                    <div class="review-author">
+                        <strong>Kim & Trish</strong>
+                        <span>Anniversary Page • Pro Tier</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Pangatlong order ko na 'to sa kanila! Birthday ng mama ko this time — sobrang natuwa siya. Iba talaga pag personalized. Ang mura pa considering ang daming features. Will keep coming back! 🫶"</p>
+                    <div class="review-author">
+                        <strong>Angelica T.</strong>
+                        <span>Birthday Page • Regular Tier</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header slide-up">
+                <span class="section-emoji">🖼️</span>
+                <h2>Our Work!</h2>
+                <p class="section-subtitle">Check out some of our designs (more coming soon!) 🎨</p>
+            </div>
+            <div class="gallery-grid slide-up">
+                <div class="gallery-card">
+                    <div class="gallery-placeholder pink">
+                        <span>💌</span>
+                        <p>Valentine's Invite</p>
+                        <small>Coming Soon!</small>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-placeholder coral">
+                        <span>🎮</span>
+                        <p>Love Mini-Game</p>
+                        <small>Coming Soon!</small>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-placeholder yellow">
+                        <span>📸</span>
+                        <p>Memory Gallery</p>
+                        <small>Coming Soon!</small>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-placeholder purple">
+                        <span>🎂</span>
+                        <p>Birthday Page</p>
+                        <small>Coming Soon!</small>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-placeholder mint">
+                        <span>💐</span>
+                        <p>Monthsary Special</p>
+                        <small>Coming Soon!</small>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-placeholder peach">
+                        <span>🌹</span>
+                        <p>Anniversary Page</p>
+                        <small>Coming Soon!</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header slide-up">
+                <span class="section-emoji">💬</span>
+                <h2>Let's Chat!</h2>
+                <p class="section-subtitle">Ready to make someone's day? DM us! 🥰</p>
+            </div>
+            <div class="contact-content slide-up">
+                <div class="contact-info">
+                    <h3>Reach Out! 📱</h3>
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <span>💬</span>
+                            <div>
+                                <strong>Facebook / Messenger</strong>
+                                <p><a href="https://facebook.com/" target="_blank" rel="noopener">@CupidCodePH</a></p>
+                                <small>Fastest way to reach us!</small>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span>📸</span>
+                            <div>
+                                <strong>Instagram</strong>
+                                <p><a href="https://instagram.com/" target="_blank" rel="noopener">@cupidcode.ph</a></p>
+                                <small>Check our portfolio!</small>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span>📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:cupidcode.ph@gmail.com">cupidcode.ph@gmail.com</a></p>
+                                <small>For detailed inquiries</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-buttons">
+                        <a href="https://facebook.com/" class="social-btn fb" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                            Facebook
+                        </a>
+                        <a href="https://instagram.com/" class="social-btn ig" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/></svg>
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Send a Message 📝</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name 👤</label>
+                            <input type="text" id="name" name="name" placeholder="e.g. Juan Dela Cruz" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email 📧</label>
+                            <input type="email" id="email" name="email" placeholder="you@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="occasion">What's the occasion? 🎀</label>
+                            <select id="occasion" name="occasion" required>
+                                <option value="" disabled selected>Pick one!</option>
+                                <option value="valentine">💝 Valentine's Day</option>
+                                <option value="monthsary">💕 Monthsary / Anniversary</option>
+                                <option value="birthday">🎂 Birthday</option>
+                                <option value="proposal">💍 Proposal</option>
+                                <option value="mothers-day">🌸 Mother's Day</option>
+                                <option value="fathers-day">👔 Father's Day</option>
+                                <option value="graduation">🎓 Graduation</option>
+                                <option value="just-because">💫 Just Because</option>
+                                <option value="other">✨ Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us your idea! 💭</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Share your vision! What do you want to say to your special someone?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send It! 🚀</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg viewBox="0 0 60 60" width="32" height="32">
+                        <path d="M30 54 C25 49, 5 36, 5 22 C5 14, 11 8, 19 8 C24 8, 28 11, 30 14 C32 11, 36 8, 41 8 C49 8, 55 14, 55 22 C55 36, 35 49, 30 54Z" fill="#ff4d6d" stroke="#ffd166" stroke-width="2"/>
+                        <text x="30" y="32" text-anchor="middle" font-family="monospace" font-size="14" fill="white" font-weight="bold">&lt;/&gt;</text>
+                    </svg>
+                    <span>CupidCode</span>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">📱</a>
+                    <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+                    <a href="mailto:cupidcode.ph@gmail.com" aria-label="Email">📧</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 CupidCode 💘 Made with love (and lots of coffee ☕) by two college sweethearts!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
